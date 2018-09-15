@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sonos</title>
+    <script src="sonos.js">
+
+    </script>
+    <script src="query.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+
+<button onclick="location.href='https://api.sonos.com/login/v3/oauth?client_id=3608847c-9729-4a98-88ab-4089d36f9407&response_type=code&state=testState&scope=playback-control-all&redirect_uri=http%3A%2F%2Flocalhost%3A63342%2F'" type="button">Sign in With Sonos</button>
+
+
+<div>
+    <button onclick="getToken()">Allow Control..</button>
+</div>
+</body>
+</html>
